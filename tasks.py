@@ -26,6 +26,7 @@ def my_mlp(w, X, sigma=np.tanh):
     a2 = sigma(W2 @ a1)
     f  = sigma(W3 @ a2)
     return f
+
 # -----------------------------------------------
  
 # Task 2:
